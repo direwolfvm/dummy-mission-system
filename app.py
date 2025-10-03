@@ -81,11 +81,414 @@ PROCESS_DECISION_PAYLOAD_DATA = [
         "process": 1,
         "project": 1,
         "data_description": "Traffic impact analysis completed",
-        "evaluation_data": {
-            "traffic_volume": 50000,
-            "peak_hours": "7-9am, 4-7pm",
-            "congestion_level": "high"
-        },
+        "evaluation_data": {    {
+        "top_level_key": "Test-2",
+        "secondary_key": "BLM-MOAB-CE",
+        "value": [
+            {
+                "name": "projectApprovedBy",
+                "value": {
+                    "value": "Sally Supervisor",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "projectLead",
+                "value": {
+                    "value": "Analyst Arthur",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "applicant",
+                "value": {
+                    "value": "Various, see attachment 3",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "accessNeeded",
+                "value": {
+                    "value": "None",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "typeOfAuthorization",
+                "value": {
+                    "value": "ROW",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "acresOfDisturbance",
+                "value": {
+                    "value": 0,
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "specialManagementArea",
+                "value": {
+                    "value": "No",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "knownIssues",
+                "value": {
+                    "value": "None",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "surveyNeeds",
+                "value": {
+                    "value": "None",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "timelines_lengthOfProject",
+                "value": {
+                    "value": "2 months",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "projectName",
+                "value": {
+                    "value": "2025 Rights of Way Renewals and Assignments",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "description",
+                "value": {
+                    "value": "The Bureau of Land Management (BLM) Moab Field Office (MFO) has thirteen Rights of way  (ROWs) and one Land Use Permit (LUP) expiring between January 1, 2025 and December 31,  2025...",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "fieldOfficeName",
+                "value": {
+                    "value": "Moab Field Office",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "streetAddress",
+                "value": {
+                    "value": "82 East Dogwood Avenue",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "city",
+                "value": {
+                    "value": "Moab",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "state",
+                "value": {
+                    "value": "UT",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "zipCode",
+                "value": {
+                    "value": "84532",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "categoricalExclusionID",
+                "value": {
+                    "value": "DOI-BLM-UT-Y010-2025-0018-CX",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "locationOfProposedAction",
+                "value": {
+                    "value": "Moab Field Office",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "leaseSerialCaseFileNumber",
+                "value": {
+                    "value": "UTUT106105849, UTUT106264058, UTUT106250106, UTUT106133787, UTUT106102434, UTUT106251062, UTUT105866534, UTUT106247230, UTUT105864144, UTUT105864146, UTUT106247656, UTUT106156132 UTUT106180673, UTUT106094622",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "contactPerson",
+                "value": {
+                    "value": "Read Kennard",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "contactTitle",
+                "value": {
+                    "value": "Realty Specialist",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "officeName",
+                "value": {
+                    "value": "Moab Field Officer",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "mailingAddress",
+                "value": {
+                    "value": "82 E. Dogwood, Moab, Utah 84532",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "telephoneNumber",
+                "value": {
+                    "value": "435-259-2133",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "exclusion",
+                "value": {
+                    "value": "Renewals and assignments of leases, permits, or rights-of-way where no additional rights are conveyed beyond those granted by the original authorizations.",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "landUsePlanName",
+                "value": {
+                    "value": "Land Use Plan Name: Moab Field Office Record of Decision and Approved Resource Management Plan, as amended",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "dateApproved",
+                "value": {
+                    "value": "2016-12-15",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "conformanceOption",
+                "value": {
+                    "value": "specificallyProvided",
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "lupDecisions",
+                "value": {
+                    "value": {
+                        "value": {
+                            "value": {
+                                "value": {
+                                    "value": {
+                                        "value": "Goals and Objectives: Meet public needs for use authorization such as rights of way (ROWs)...",
+                                        "comment": {
+                                            "comment": "",
+                                            "saved": false
+                                        }
+                                    },
+                                    "comment": {
+                                        "comment": "",
+                                        "saved": false
+                                    }
+                                },
+                                "comment": {
+                                    "comment": "",
+                                    "saved": false
+                                }
+                            },
+                            "comment": {
+                                "comment": "",
+                                "saved": false
+                            }
+                        },
+                        "comment": {
+                            "comment": "",
+                            "saved": false
+                        }
+                    },
+                    "comment": {
+                        "comment": "",
+                        "saved": false
+                    }
+                }
+            },
+            {
+                "name": "responsibleOfficial",
+                "value": "David Pals"
+            },
+            {
+                "name": "date",
+                "value": "2025-02-24"
+            },
+            {
+                "name": "moveonval",
+                "value": "yes"
+            },
+            {
+                "name": "publicHealthImpacts",
+                "value": {
+                    "value": "This category of action is not known to have impacts on public health and safety because it does not involve on-the-ground activities.",
+                    "comment": {}
+                }
+            },
+            {
+                "name": "naturalResourcesImpacts",
+                "value": {
+                    "value": "The type of activity, as described in the Proposed Action, has no potential (i.e. no surface disturbance) to cause effects on cultural resources.\nThis category of action is not known to have impacts on park, recreation or refuge lands.\nThe this category of proposed action is not known to have impacts on Wilderness Areas.\nThis category of action is not known to have impacts on Wild or Scenic Rivers.\nThis category of action is not known to have impacts on National Natural Landmarks.\nThere are no aspects of the proposed action that will impact sole or principal drinking water aquifers.\nThis category of action is not known to have impacts on prime farmlands.\nThis category of action is not known to have impacts on wetlands.\nThis category of action is not known to have impacts on floodplains.\nThis category of action is not known to have impacts on national monuments.\nThis category of action is not known to have impacts on migratory birds.\nThis category of action is not known to have impacts on other unique resources.\nThe action does not have significant impacts on properties listed or eligible for listing on the National Register of Historic Places.",
+                    "comment": {}
+                }
+            },
+            {
+                "name": "controversialEffects",
+                "value": {
+                    "value": "The impacts of the action are not highly uncertain and do not involve unique or unknown risks.",
+                    "comment": {}
+                }
+            },
+            {
+                "name": "precedentForFutureAction",
+                "value": {
+                    "value": "The action does not establish a precedent for future action or represent a decision in principle about future actions with potentially significant environmental effects.",
+                    "comment": {}
+                }
+            },
+            {
+                "name": "cumulativeImpacts",
+                "value": {
+                    "value": "The action does not have a direct relationship to other actions with individually insignificant but cumulatively significant environmental effects.",
+                    "comment": {}
+                }
+            },
+            {
+                "name": "endangeredSpeciesImpacts",
+                "value": null
+            },
+            {
+                "name": "limitAccessToSacredSites",
+                "value": {
+                    "value": "The action will not limit access to or ceremonial use of Indian sacred sites.",
+                    "comment": {}
+                }
+            },
+            {
+                "name": "promoteNoxiousWeeds",
+                "value": {
+                    "value": "The action will not contribute to the introduction, continued existence, or spread of noxious weeds or non-native invasive species.",
+                    "comment": {}
+                }
+            },
+            {
+                "name": "categoricalExclusionJustification",
+                "value": {
+                    "value": "This categorical exclusion is appropriate in this situation because there are no extraordinary  circumstances potentially having effects that may significantly affect the environment. The  Proposed Action has been reviewed, and none of the extraordinary circumstances described in 43  CFR Part 46.215 apply.",
+                    "comment": {}
+                }
+            }
+        ]
+    },
         "response": "Approved for next phase",
         "result": "positive",
         "result_bool": True,
