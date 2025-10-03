@@ -1,0 +1,13 @@
+---
+applications:
+  - name: dummy-mission-system
+    memory: 256M
+    disk_quota: 512M
+    instances: 1
+    timeout: 120
+    buildpacks:
+      - python_buildpack
+    command: gunicorn app:app --bind 0.0.0.0:$PORT
+    env:
+      FLASK_ENV: production
+    random-route: true

@@ -48,6 +48,17 @@ docker run -p 5001:5001 dummy-mission-system
 
 The server will run on `http://localhost:5001`
 
+### cloud.gov / Cloud Foundry
+
+Deploy the application to [cloud.gov](https://cloud.gov/) (Cloud Foundry) using the provided `manifest.yml`:
+
+```bash
+# Authenticate with cloud.gov first, then target the appropriate org/space.
+cf push
+```
+
+The manifest configures the Python buildpack, installs dependencies from `requirements.txt`, and starts the app with Gunicorn bound to the platform-provided `$PORT`.
+
 ## API Endpoints
 
 ### GET /
