@@ -1,3 +1,5 @@
+import os
+
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
@@ -557,4 +559,6 @@ def internal_error(error):
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5001)
+    debug_mode = os.environ.get("FLASK_DEBUG", "0") == "1"
+    port = int(os.environ.get("PORT", 5001))
+    app.run(debug=debug_mode, host='0.0.0.0', port=port)
