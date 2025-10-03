@@ -90,7 +90,7 @@ PROCESS_DECISION_PAYLOAD_DATA = [
                 {
                     "name": "projectApprovedBy",
                     "value": {
-                        "value": "Sally Supervisor",
+                        "value": "Sally Mission Supervisor",
                         "comment": {
                             "comment": "",
                             "saved": False
