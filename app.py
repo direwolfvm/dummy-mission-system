@@ -188,7 +188,7 @@ PROCESS_DECISION_PAYLOAD_DATA = [
                     }
                 },
                 {
-                    "name": "projectName",
+                    "name": "projectTitle",
                     "value": {
                         "value": "2025 Rights of Way Renewals and Assignments",
                         "comment": {
