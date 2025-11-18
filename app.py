@@ -87,16 +87,7 @@ PROCESS_DECISION_PAYLOAD_DATA = [
             "top_level_key": "Test-2",
             "secondary_key": "BLM-MOAB-CE",
             "value": [
-                {
-                    "name": "projectApprovedBy",
-                    "value": {
-                        "value": "Sally Mission Supervisor",
-                        "comment": {
-                            "comment": "",
-                            "saved": False
-                        }
-                    }
-                },
+                
                 {
                     "name": "projectLead",
                     "value": {
@@ -198,7 +189,7 @@ PROCESS_DECISION_PAYLOAD_DATA = [
                     }
                 },
                 {
-                    "name": "description",
+                    "name": "projectDescription",
                     "value": {
                         "value": "The Bureau of Land Management (BLM) Moab Field Office (MFO) has thirteen Rights of way  (ROWs) and one Land Use Permit (LUP) expiring between January 1, 2025 and December[...]",
                         "comment": {
@@ -337,16 +328,7 @@ PROCESS_DECISION_PAYLOAD_DATA = [
                         }
                     }
                 },
-                {
-                    "name": "exclusion",
-                    "value": {
-                        "value": "Renewals and assignments of leases, permits, or rights-of-way where no additional rights are conveyed beyond those granted by the original authorizations.",
-                        "comment": {
-                            "comment": "",
-                            "saved": False
-                        }
-                    }
-                },
+                
                 {
                     "name": "landUsePlanName",
                     "value": {
@@ -365,122 +347,6 @@ PROCESS_DECISION_PAYLOAD_DATA = [
                             "comment": "",
                             "saved": False
                         }
-                    }
-                },
-                {
-                    "name": "conformanceOption",
-                    "value": {
-                        "value": "specificallyProvided",
-                        "comment": {
-                            "comment": "",
-                            "saved": False
-                        }
-                    }
-                },
-                {
-                    "name": "lupDecisions",
-                    "value": {
-                        "value": {
-                            "value": {
-                                "value": {
-                                    "value": {
-                                        "value": "Goals and Objectives: Meet public needs for use authorization such as rights of way (ROWs)...",
-                                        "comment": {
-                                            "comment": "",
-                                            "saved": False
-                                        }
-                                    },
-                                    "comment": {
-                                        "comment": "",
-                                        "saved": False
-                                    }
-                                },
-                                "comment": {
-                                    "comment": "",
-                                    "saved": False
-                                }
-                            },
-                            "comment": {
-                                "comment": "",
-                                "saved": False
-                            }
-                        },
-                        "comment": {
-                            "comment": "",
-                            "saved": False
-                        }
-                    }
-                },
-                {
-                    "name": "responsibleOfficial",
-                    "value": "David Pals"
-                },
-                {
-                    "name": "date",
-                    "value": "2025-02-24"
-                },
-                {
-                    "name": "moveonval",
-                    "value": "yes"
-                },
-                {
-                    "name": "publicHealthImpacts",
-                    "value": {
-                        "value": "This category of action is not known to have impacts on public health and safety because it does not involve on-the-ground activities.",
-                        "comment": {}
-                    }
-                },
-                {
-                    "name": "naturalResourcesImpacts",
-                    "value": {
-                        "value": "The type of activity, as described in the Proposed Action, has no potential (i.e. no surface disturbance) to cause effects on cultural resources.\nThis category of action[...]",
-                        "comment": {}
-                    }
-                },
-                {
-                    "name": "controversialEffects",
-                    "value": {
-                        "value": "The impacts of the action are not highly uncertain and do not involve unique or unknown risks.",
-                        "comment": {}
-                    }
-                },
-                {
-                    "name": "precedentForFutureAction",
-                    "value": {
-                        "value": "The action does not establish a precedent for future action or represent a decision in principle about future actions with potentially significant environmental effects.[...]",
-                        "comment": {}
-                    }
-                },
-                {
-                    "name": "cumulativeImpacts",
-                    "value": {
-                        "value": "The action does not have a direct relationship to other actions with individually insignificant but cumulatively significant environmental effects.",
-                        "comment": {}
-                    }
-                },
-                {
-                    "name": "endangeredSpeciesImpacts",
-                    "value": None
-                },
-                {
-                    "name": "limitAccessToSacredSites",
-                    "value": {
-                        "value": "The action will not limit access to or ceremonial use of Indian sacred sites.",
-                        "comment": {}
-                    }
-                },
-                {
-                    "name": "promoteNoxiousWeeds",
-                    "value": {
-                        "value": "The action will not contribute to the introduction, continued existence, or spread of noxious weeds or non-native invasive species.",
-                        "comment": {}
-                    }
-                },
-                {
-                    "name": "categoricalExclusionJustification",
-                    "value": {
-                        "value": "This categorical exclusion is appropriate in this situation because there are no extraordinary  circumstances potentially having effects that may significantly affect the[...]",
-                        "comment": {}
                     }
                 }
             ]
