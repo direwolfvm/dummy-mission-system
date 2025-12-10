@@ -131,7 +131,7 @@ PROCESS_DECISION_PAYLOAD_DATA = [
                 {
                     "name": "acresOfDisturbance",
                     "value": {
-                        "value": 0,
+                        "value": "0",
                         "comment": {
                             "comment": "",
                             "saved": False
